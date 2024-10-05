@@ -21,6 +21,7 @@ import Next from "./tech/next.png";
 
 import Moodify from "./Moodify.png";
 import DBI from "./company/dbi.png"
+import Portfolio from "./Portfolio.png";
 import Synthesis from "./company/synthesis.png";
 
 import carrent from "./carrent.png";
@@ -52,5 +53,6 @@ export {
   Moodify,
   DBI,
   Synthesis,
-  Next
+  Next,
+  Portfolio
 };

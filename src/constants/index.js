@@ -17,7 +17,8 @@ import {
   Moodify,
   DBI,
   Synthesis,
-  Next
+  Next,
+  Portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -125,7 +126,7 @@ const experiences = [
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Developed and maintained Buyer's Flow which was a automated email sending (with AI features) website with multiple other modules and it had sequence whixh was like a workflow were you can control the email flow",
+      "Developed and maintained Buyer's Flow which was a automated email sending (with AI features) website with multiple other modules and it had sequence which was like a workflow were you can control the email flow",
       "Developed and maintaining Supplier's Discovery were we can Buy and sell products based on the preference we give and has permissions for different modules in buyer ans supplier accounts and it maintains the whole process from quote creation, purchase Order to Invoice and shipping with an Admin panel who has access to all the feature",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -226,27 +227,31 @@ const projects = [
     //   window.open("https://flexmovie.netlify.app/");
     // },
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Portfolio",
+    description:
+      "Developed a responsive movie application using React and that shows presents the skills i have and the past experiences and for the designing i have used tailwind and i have used a PC 3D modal which is made using threejs which i took reference from another project to have a very good look for my project.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Portfolio,
+    source_code_link: "https://github.com/Bharathkm37/Portfolio",
+  },
 ];
 
 export { 
